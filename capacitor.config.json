@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "dengueville",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
