@@ -57,6 +57,10 @@ import {
   IonGrid,
   IonRow,
   IonCol,
+  // IonInput,
+  IonLabel,
+  IonItem,
+  IonButton,
 } from "@ionic/vue";
 import { defineComponent } from "vue";
 import { camera, trash, close } from "ionicons/icons";
@@ -77,6 +81,10 @@ export default defineComponent({
     IonRow,
     IonCol,
     IonImg,
+    // IonInput,
+    IonLabel,
+    IonItem,
+    IonButton,
   },
   setup() {
     const { photos, takePhoto } = anexo();
