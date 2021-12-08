@@ -13,9 +13,9 @@
           <ion-label>Tab 2</ion-label>
         </ion-tab-button>
 
-        <ion-tab-button tab="tab3" href="/tabs/tab3">
-          <ion-icon :icon="square" />
-          <ion-label>Tab 3</ion-label>
+        <ion-tab-button tab="sintomas" href="/tabs/Sintomas">
+          <ion-icon :icon="body" />
+          <ion-label>Sintomas e Cuidados</ion-label>
         </ion-tab-button>
 
          <ion-tab-button tab="Denuncia" href="/tabs/Denuncia">
@@ -37,7 +37,7 @@ import {
   IonPage,
   IonRouterOutlet,
 } from "@ionic/vue";
-import { ellipse, home, square } from "ionicons/icons";
+import { ellipse, home, square, body } from "ionicons/icons";
 
 export default {
   name: "Tabs",
@@ -55,6 +55,7 @@ export default {
       ellipse,
       home,
       square,
+      body,
     };
   },
 };
