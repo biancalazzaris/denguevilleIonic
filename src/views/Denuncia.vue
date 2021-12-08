@@ -2,7 +2,13 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>Denuncia</ion-title>
+        <ion-title class="bg-header">
+          <div>
+            <h1>
+              <a href="/tabs/denuncia">Denuncia</a>
+            </h1>
+          </div>
+        </ion-title>
       </ion-toolbar>
     </ion-header>
 
@@ -33,12 +39,14 @@
 
       <!-- <ion-fab> markup  -->
       <ion-fab vertical="bottom" horizontal="center" slot="fixed">
-        <ion-fab-button @click="takePhoto()">
+        <ion-fab-button class="button-camera" @click="takePhoto()">
           <ion-icon :icon="camera"></ion-icon>
         </ion-fab-button>
       </ion-fab>
 
-      <ion-button shape="round" @click="enviar()">Enviar</ion-button>
+      <ion-button class="button-submit" shape="round" @click="enviar()"
+        >Enviar</ion-button
+      >
     </ion-content>
   </ion-page>
 </template>
@@ -98,3 +106,20 @@ export default defineComponent({
   },
 });
 </script>
+
+<style scoped>
+.bg-header {
+  background-color: #1aae9f;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.button-submit {
+  --background: #1aae9f;
+}
+.button-camera {
+  --background: #1aae9f;
+}
+</style>

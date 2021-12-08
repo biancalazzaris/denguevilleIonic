@@ -13,12 +13,12 @@
           <ion-label>Tab 2</ion-label>
         </ion-tab-button>
 
-        <ion-tab-button tab="sintomas" href="/tabs/Sintomas">
+        <ion-tab-button tab="sintomas" href="/tabs/sintomas">
           <ion-icon :icon="body" />
           <ion-label>Sintomas e Cuidados</ion-label>
         </ion-tab-button>
 
-         <ion-tab-button tab="Denuncia" href="/tabs/Denuncia">
+        <ion-tab-button tab="denuncia" href="/tabs/denuncia">
           <ion-icon :icon="square" />
           <ion-label>Denuncia</ion-label>
         </ion-tab-button>
