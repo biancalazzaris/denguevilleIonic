@@ -8,9 +8,9 @@
           <ion-label>Home</ion-label>
         </ion-tab-button>
 
-        <ion-tab-button tab="tab2" href="/tabs/tab2">
-          <ion-icon :icon="ellipse" />
-          <ion-label>Tab 2</ion-label>
+        <ion-tab-button tab="maps" href="/tabs/maps">
+          <ion-icon :icon="map" />
+          <ion-label>Mapa de casos</ion-label>
         </ion-tab-button>
 
         <ion-tab-button tab="tab3" href="/tabs/tab3">
@@ -37,7 +37,7 @@ import {
   IonPage,
   IonRouterOutlet,
 } from "@ionic/vue";
-import { ellipse, home, square } from "ionicons/icons";
+import { ellipse, home, square, map } from "ionicons/icons";
 
 export default {
   name: "Tabs",
@@ -55,6 +55,7 @@ export default {
       ellipse,
       home,
       square,
+      map
     };
   },
 };

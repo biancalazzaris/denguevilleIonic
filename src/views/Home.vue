@@ -28,7 +28,7 @@
           Denuncie pontos de foco do mosquito na sua comunidade e <br />
           acompanhe os números da doença na cidade.
         </p>
-        <ion-button href="/tabs/tab2" class="button" shape="round">
+        <ion-button href="/tabs/Maps" class="button" shape="round">
           <ion-icon :icon="chevronForward" />
         </ion-button>
       </div>
